@@ -1,0 +1,24 @@
+name: week9b_starter
+description: "IGME-340 Week 9B: moving between pages with Navigator and named routes"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ">=4.0.0 <7.0.0"
+
+flutter:
+  uses-material-design: true
+
+  # The coin picture you click, already set up for you. It ships with the app
+  # so it shows up in Chrome and with no internet.
+  assets:
+    - assets/coins.png
